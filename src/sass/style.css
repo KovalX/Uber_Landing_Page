@@ -173,6 +173,7 @@ nav {
   text-transform: uppercase;
   text-align: center;
   z-index: 2;
+  width: 76px;
 }
 
 .label_white {
@@ -447,5 +448,31 @@ nav {
 
 .require .warning .require_list li:before {
   background: url("../icons/check_red.png") center center/cover no-repeat;
+}
+
+.world {
+  position: relative;
+  min-height: 717px;
+  padding: 49px 0;
+  background: url("../img/bg/map.jpg") center center/cover no-repeat;
+}
+
+.world_link {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 49px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 68px;
+  text-transform: uppercase;
+  color: #1fbad6;
+}
+
+.world_link:hover {
+  text-decoration: none;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
